@@ -1,0 +1,187 @@
+.categories {
+  position: absolute;
+  width: 240px;
+  height: 53px;
+  left: 239px;
+  top: 100px;
+
+  font-family: Satoshi, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 133.7%;
+  /* or 53px */
+
+  color: #000000;
+}
+.head {
+  display: flex;
+  position: relative;
+  left: 150px;
+}
+.frame-child,
+.frame-inner,
+.frame-item,
+.rectangle-icon {
+  position: absolute;
+  top: 183px;
+  left: 99px;
+  width: 611px;
+  height: 435px;
+  object-fit: cover;
+}
+.frame-inner,
+.frame-item,
+.rectangle-icon {
+  left: 730px;
+  width: 610px;
+  height: 305px;
+}
+.frame-inner,
+.rectangle-icon {
+  top: 648px;
+  left: 100px;
+}
+.rectangle-icon {
+  top: 511px;
+  left: 730px;
+  height: 442px;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.rectangle-div {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0), #000 99.24%);
+}
+.rectangle-div {
+  top: 183px;
+  left: 99px;
+  width: 611px;
+  height: 435px;
+  opacity: 0.8;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3 {
+  top: 310px;
+  left: 730px;
+  width: 610px;
+  height: 181px;
+}
+.frame-child2,
+.frame-child3 {
+  top: 772px;
+}
+.frame-child3 {
+  left: 100px;
+}
+.bal-mukund-books,
+.english-books {
+  position: absolute;
+  width: 428px;
+  height: 55px;
+  left: 128px;
+  top: 532px;
+
+  font-family: Satoshi, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 133.7%;
+  /* or 53px */
+
+  color: #ffffff;
+}
+.english-lectures,
+.swamiji-kirtans {
+  position: absolute;
+  top: 532px;
+  left: 128px;
+  line-height: 133.7%;
+  font-weight: 500;
+  display: inline-block;
+  width: 428px;
+  height: 55px;
+}
+.bal-mukund-books,
+.english-lectures,
+.swamiji-kirtans {
+  top: 406px;
+  left: 761px;
+  height: 65px;
+}
+.english-lectures {
+  position: absolute;
+  width: 428px;
+  height: 71px;
+  left: 128px;
+  top: 867px;
+
+  font-family: Satoshi, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 133.7%;
+  /* or 53px */
+
+  color: #ffffff;
+}
+.swamiji-kirtans {
+  position: absolute;
+  width: 428px;
+  height: 71px;
+  left: 761px;
+  top: 863px;
+
+  font-family: Satoshi, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 133.7%;
+  /* or 53px */
+
+  color: #ffffff;
+}
+.english-lectures {
+  top: 867px;
+  left: 128px;
+}
+.categories-parent {
+  position: relative;
+  background-color: #eee;
+  width: 100%;
+  height: 1053px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-montagu-slab);
+ 
+
+}
+
+@media (max-width:1400px) {
+  .head {
+    display: flex;
+    position: relative;
+    left: -80px;
+  }
+
+  .categories {
+    position: absolute;
+    width: 240px;
+    height: 53px;
+    left: 39px;
+    top: 100px;
+  
+    font-family: Satoshi, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 133.7%;
+    /* or 53px */
+  
+    color: #000000;
+  }
+}

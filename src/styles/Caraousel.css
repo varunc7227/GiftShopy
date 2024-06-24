@@ -1,0 +1,35 @@
+.carousel-root {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: transparent;
+}
+
+@media screen and (min-width: 1000px) {
+  .carousel .slider-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .MuiButtonBase-root-MuiIconButton-root button {
+    left: 302px;
+  }
+
+  .css-bl9i2w-MuiButtonBase-root-MuiIconButton-root {
+    right: 302px;
+  }
+
+  .carousel-root {
+    width: 100%;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .carousel .slider-wrapper {
+    width: 100%;
+  }
+}

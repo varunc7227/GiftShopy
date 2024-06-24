@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Dai+Banna+SIL&family=Libre+Baskerville&family=Quicksand:wght@500&display=swap");
+
+.product_img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.16) 0px 8px 24px;
+  padding: 5px;
+}
+
+#typo {
+  color: var(--font-clr);
+  font-family: var(--font-style);
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+.image_jk.MuiBox-root.css-79elbk:hover .product_img {
+  box-shadow: rgb(255 255 255) 0px 8px 24px;
+}
+
+.product_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.addtocart {
+  border-radius: 0px;
+  line-height: 3;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 1em;
+  margin: 9px auto;
+  display: block;
+  font-weight: bolder;
+  max-width: 200px;
+  background: #ff6d2f;
+}
+.need_help{
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  gap:1rem;
+
+}
+.need_help_buttons {
+  border-radius: 2rem;
+  line-height: 3;
+  width: 100%;
+  font-size: 2em;
+  display: block;
+  font-weight: bolder;
+  max-width: 200px;
+  border: 1px solid #ff6d2f;
+  cursor: pointer;
+}
+.need_help_buttons:hover{
+  background:#ff6d2f;
+  color: whitesmoke;
+  transition: 0.2s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .need_help_buttons{
+    max-width: none;
+  }
+  .need_help{
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+
+
+.trending {
+  font-family: 'Satoshi, sans-serif';
+  display: block;
+  font-size: 2rem;
+  color: #4d4d4d;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+button#myBtn {
+  padding: 1.3rem;
+  margin: 5px 0;
+}
+
+.bestsellers {
+  display: block;
+  /* width: 30%; */
+  /* justify-content: center; */
+  /* text-decoration: underline; */
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  color: #ff6d31;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.swamijiBooks {
+  display: block;
+  font-family: 'Satoshi, sans-serif';
+  /* width: 30%; */
+  /* justify-content: center; */
+  /* text-decoration: underline; */
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  /* color: #ff6d31; */
+  color: #4d4d4d;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.about_jkyog_gift_shop {
+  display: block;
+  /* width: 30%; */
+  /* justify-content: center; */
+  /* text-decoration: underline; */
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  color: #4d4d4d;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+
+.about_jkyog_gift_shop_box{
+  display: flex;
+  padding: 0.75rem 1.5rem 2.75rem 0.75rem;
+  align-items: flex-start;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.about_jkyog_gift_shop_image{
+  width: 40%;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 1rem;
+  background: url("https://jipl-strapi-aws-s3-images-bucket.s3.amazonaws.com/bannerimage_1_5ec00547a5.png"), lightgray 50% / cover no-repeat;
+  height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about_jkyog_gift_shop_textBox{
+  display: flex;
+padding: 0.75rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+/* gap: 2.5rem; */
+justify-content: space-between;
+height: 300px;
+flex: 1 0 0;
+}
+
+@media screen and (max-width: 450px) {
+  .about_jkyog_gift_shop_textBox{
+    height: auto;
+  }
+
+  .about_jkyog_gift_shop_box{
+    display: block;
+  }
+  .about_jkyog_gift_shop_image{
+    width: 100%;
+  }
+}
+
+.about_jkyog_gift_shop_text{
+  align-self: stretch;
+  color:  #645743;
+
+/* Body/Regular 18-24 */
+font-family: Satoshi Variable;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 133.333% */
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.list {
+  background: #ffffff;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  /* display: none; */
+  position: absolute;
+  padding: 0;
+}
+
+.trendingitems {
+  margin: 0 45px;
+}
+@media screen and (max-width: 768px) {
+  .bestsellers,
+  .about_jkyog_gift_shop,
+  .swamijiBooks,
+  .trending {
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .trending,
+  .bestsellers,
+  .about_jkyog_gift_shop,
+  .swamijiBooks {
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  .bestsellers{
+    text-decoration: underline;
+  }
+
+  .trendingitems .slick-next,
+  .trendingitems .slick-prev {
+    display: none !important;
+  }
+
+  .trendingitems {
+    margin: 0 15px;
+  }
+}

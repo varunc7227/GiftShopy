@@ -1,0 +1,92 @@
+{
+  "name": "jkyog",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.9",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.8",
+    "@paypal/react-paypal-js": "^7.8.2",
+    "@reduxjs/toolkit": "^1.9.2",
+    "@sandeepv68/react-magnifier": "^0.0.4",
+    "@stripe/react-stripe-js": "^1.16.4",
+    "@stripe/stripe-js": "^1.46.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.4",
+    "base-64": "^1.0.0",
+    "bootstrap": "^5.3.1",
+    "emailjs-com": "^3.2.0",
+    "formik": "^2.2.9",
+    "framer-motion": "^10.16.4",
+    "http-proxy-middleware": "^2.0.6",
+    "loadash": "^1.0.0",
+    "notistack": "^3.0.1",
+    "pure-react-carousel": "^1.30.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-dropdown": "^1.11.0",
+    "react-icons": "^4.7.1",
+    "react-image-gallery": "^1.2.11",
+    "react-img-hover-zoom": "^0.1.8",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-top": "^3.0.0",
+    "react-slick": "^0.29.0",
+    "react-stripe-checkout": "^2.6.3",
+    "reactjs-alert": "^2.2.0",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.58.3",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^11.12.0",
+    "styled-components": "^5.3.10",
+    "sweetalert2": "^11.7.3",
+    "sweetalert2-react-content": "^5.0.7",
+    "tss-react": "^4.7.2",
+    "use-force-update": "^1.0.11",
+    "web-vitals": "^2.1.4",
+    "webpack-bundle-analyzer": "^4.10.1",
+    "yup": "^0.32.11"
+  },
+  "homepage": "/giftshop",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "analyze": "node analyzer.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jkyog/jkshop-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jkyog/jkshop-frontend/issues"
+  },
+  "description": "",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "tailwindcss": "^3.3.5"
+  }
+}

@@ -1,0 +1,229 @@
+.footerbox {
+    width: 81%;
+    margin: 66px auto 0px auto;
+    padding: 1px 0 50px;
+    font-family: HeuristicaRegular;
+}
+
+.textleft {
+    display: flex;
+    align-items: baseline;
+}
+
+.txt {
+    color: #ff6d2f;
+    font-size: 24px;
+    line-height: 22px;
+    margin-top: 0;
+}
+
+.desc {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.content ul {
+    padding-left: 0;
+    gap: 0.625rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content ul li a {
+    text-decoration: none;
+
+}
+
+.content ul li a p {
+    color:  #645743;
+    font-family: 'Satoshi, sans-serif';
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4rem; /* 150% */
+    /* line-height: 28px; */
+    margin-bottom: auto;
+}
+
+.contact p {
+    line-height: 28px;
+}
+
+.contact svg {
+    margin-right: 15px;
+}
+
+.htxt {
+    font-weight: 700;
+    color: #291900;
+    font-size: 1.25rem !important;
+    margin-bottom: 30px !important;
+    letter-spacing: -0.025rem;
+}
+
+input.js-form-type-checkbox {
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 0;
+    margin: 2px 0 0 0;
+    margin-right: 5px;
+    background: white;
+    border: none !important;
+}
+
+.mini-footer {
+    height: 43px;
+    clear: both;
+    overflow: hidden;
+    background: #ff6d2f;
+}
+
+.mini-footer .content-area {
+    width: 81%;
+    margin: auto;
+    line-height: 43px;
+}
+
+.mini-footer .content-area .copy-right {
+    width: 50%;
+    float: left;
+    color: #FFFFFF;
+}
+
+.mini-footer .content-area .terms-policy {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.mini-footer .content-area .terms-policy ul {
+    float: right;
+}
+
+.mini-footer .content-area .terms-policy ul li {
+    float: left;
+    list-style: none;
+}
+
+.mini-footer .content-area .terms-policy ul li a {
+    display: block;
+    margin-left: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.mini-footer .content-area .terms-policy ul li a {
+    display: block;
+    margin-left: 30px;
+    color: #FFFFFF;
+}
+
+.programs-center ul li {
+    /* padding-left: 20px; */
+    line-height: 28px;
+    list-style: none;
+    margin-bottom: 0px;
+    /* background: url(https://www.jkyog.org/themes/custom/jkyog/images/bullet-point.png) 0 12px no-repeat; */
+}
+
+.donate-login-vol {
+    clear: both;
+    text-align: left;
+    float: left;
+    margin-top: 15px;
+}
+
+.donate-login-vol ul {
+    margin-top: 12px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.donate-login-vol ul li {
+    float: left;
+    list-style: none;
+}
+
+.donate-login-vol ul li a {
+    display: block;
+    color: #ff6d31;
+    text-align: center;
+    margin: 0 15px;
+    line-height: 21px;
+    font-size: 15px;
+}
+
+@media (max-width:992px) {
+
+    .htxt {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    .txt {
+        font-size: 20px;
+    }
+
+    .mini-footer .content-area {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width:520px) {
+    .mini-footer {
+        height: 59px;
+        font-size: 13px;
+    }
+
+    .mini-footer .content-area {
+        line-height: inherit;
+        padding-top: 8px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .mini-footer .content-area .copy-right,
+    .mini-footer .content-area .terms-policy {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mini-footer .content-area .terms-policy ul {
+        float: none;
+        text-align: center;
+        margin: auto;
+        display: table;
+    }
+
+    .mini-footer .content-area .terms-policy ul li {
+        margin: 0 15px;
+    }
+
+    .mini-footer .content-area .terms-policy ul li a {
+        margin: 0;
+    }
+}
+
+@media (max-width:350px) {
+    .mini-footer {
+        height: 90px;
+        font-size: 13px;
+    }
+}
+
+.social-view{
+    padding: 0px 1rem;
+    color: #645743;
+    font-family: 'Satoshi, sans-serif';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}

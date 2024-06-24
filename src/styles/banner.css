@@ -1,0 +1,142 @@
+.main {
+  background-color: yellow;
+  /* display: none; */
+}
+
+.icon {
+  border-radius: 0%;
+  background: red;
+  width: 101px;
+  height: 119px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* text-align: center; */
+  border-radius: 62%;
+}
+
+.icon-container {
+  background-image: url("../assets/logo/giftcard.png");
+  background-size: cover;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+}
+
+.image-container {
+  position: relative;
+  transition: background-color 0.3s ease;
+  /* width: 300px;
+    height: 300px; */
+}
+
+.image {
+  transition: filter 0.1s ease;
+}
+
+.image-container:hover {
+  background-color: #f24e1e;
+  /* New background color on hover */
+}
+
+.image-container:hover .image {
+  filter: brightness(0) invert(1);
+}
+
+
+
+.banner_box {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* margin: 50px 0px; */
+}
+
+.banner_icon {
+  display: flex !important;
+  flex-direction: column;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.banner_img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.banner_text {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+
+
+}
+
+.banner_text .text {
+  font-family: 'Satoshi', sans-serif;
+  color: var(--font-clr) !important; 
+  font-size: 17px;
+  /* line-height: 20px; */
+  /* margin: 0 0 10px 0; */
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  font-weight: 500;
+}
+
+.banner_icon:hover {
+  color: #f24e1e;
+}
+
+.banner_img:hover {
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.banner_box .slick-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.banner_box .slick-list {
+  width: 100%;
+}
+
+.banner_box .slick-next,
+.banner_box .slick-prev {
+  display: none !important;
+}
+
+@media (max-width:992px) {
+  .banner_box {
+    margin: 40px 0 0;
+  }
+
+  .bannerimg {
+    height: 70px;
+    width: 70px;
+  }
+
+  .banner_img {
+    height: auto;
+    width: auto;
+
+  }
+
+  .banner_text {
+    font-size: 12px;
+  }
+
+  .banner_icon {
+
+    gap: 5px;
+
+  }
+}

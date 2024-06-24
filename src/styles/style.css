@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.main-section {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* margin-top: -22px; */
+}
+
+.main-carousel {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  #basic-navbar-nav {
+    /* position: fixed; */
+    border-bottom: 1px solid black;
+    /* top: 70px; */
+    display: block;
+    z-index: 1;
+    background-color: #ffff;
+    width: 100%;
+  }
+}
+
+.navbox {
+  background-color: white;
+  border-bottom: 1px solid #645743;
+}
+
+#basic-nav-dropdown {
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem /* 16px */;
+  line-height: 1.5rem /* 24px */;
+  color: var(--font-clr) !important;
+  text-align: left;
+  border-radius: 0.5rem /* 8px */;
+  font-weight: lighter;
+}
+
+#basic-nav-dropdown {
+  width: "104px";
+  height: "44px";
+  padding: "12px 16px  12px 16px";
+  border-radius: "32px";
+  gap: "8px";
+  color: aqua;
+}
+.side-images {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* height: 63vh;
+    width: 63vh; */
+  justify-content: center;
+  /* width: 60vh; */
+  gap: 8px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.cart-page {
+  width: max(500px, 30%);
+}
+
+.full-cart-page {
+  padding: 30px;
+}
+
+.offer-box {
+  display: flex;
+}
+
+@media screen and (max-width: 400px) {
+  .side-images {
+    height: 0vh;
+  }
+}
+
+.side-images a {
+  height: 36.5%;
+  object-fit: cover;
+}
+
+.side-images a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1400px) {
+  .side-images {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .side-images {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-carousel {
+    width: 100%;
+  }
+
+  .side-images {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .subscribe-sec {
+    width: 100% !important;
+  }
+
+  .cart-page {
+    width: max(250px, 30%);
+  }
+
+  .flex-image {
+    display: none !important;
+    flex: inherit !important;
+  }
+
+  .full-cart-page {
+    padding: 30px;
+  }
+}

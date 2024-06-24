@@ -1,0 +1,27 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400&family=Fauna+One&display=swap"); */
+
+@font-face {
+  font-family: "Satoshi, sans-serif";
+  src: url("../public/Heuristica-Regular.otf")
+}
+
+@font-face {
+  font-family: "SourceSansProRegular";
+  src: url("../public/SourceSansProRegular.eot")
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #F6F6F6;
+  overflow-x: hidden;
+}
+
+.app {
+  margin: auto;
+}
+
